@@ -1,19 +1,22 @@
 import { NgModule } from '@angular/core';
 import { AngularUtilsLibComponent } from './angular-utils-lib.component';
-import { NoSpecialCharactersDirective } from './no-special-characters.directive';
+import { NoSpecialCharactersDirective } from './directive/no-special-characters.directive';
+import { CreditCardDirective } from './directive/credit-card.directive';
 
 
 
 @NgModule({
   declarations: [
     AngularUtilsLibComponent,
-    NoSpecialCharactersDirective
+    NoSpecialCharactersDirective,
+    CreditCardDirective
   ],
   imports: [
   ],
   exports: [
     AngularUtilsLibComponent,
-    NoSpecialCharactersDirective
+    NoSpecialCharactersDirective,
+    CreditCardDirective
   ]
 })
 export class AngularUtilsLibModule { }
