@@ -43,14 +43,14 @@ Finally import it to the module
     <input type="text" appNoSpecialCharacters />
 ```
 
-- If you need to add special character(s) include `includeChars` 
+- If you need to add special character(s) include `acceptChars` 
 ```html
-    <input type="text" appNoSpecialCharacters includeChars="_" />
+    <input type="text" appNoSpecialCharacters acceptChars="_" />
 ```
 
 - Below tag allows space, comma, fullstop and exclamation mark in a text.
 ```html
-    <textarea appNoSpecialCharacters includeChars=" ,.!"></textarea>
+    <textarea appNoSpecialCharacters acceptChars=" ,.!"></textarea>
 ```
 
 ### 2. Credit card number format
