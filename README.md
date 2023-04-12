@@ -4,7 +4,7 @@ This library was generated with [Angular CLI](https://github.com/angular/angular
 
 
 ## Installation Guide
-1. In your Angular application, install the my-custom-directives library:
+1. In your Angular application, install the angular-utils-lib library:
 ```perl
 npm install angular-utils-lib
 ```
