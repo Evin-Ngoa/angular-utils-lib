@@ -4,15 +4,15 @@ import { Directive, ElementRef, HostListener, Input } from '@angular/core';
     selector: '[appNoSpecialCharacters]'
 })
 export class NoSpecialCharactersDirective {
-    @Input() includeChars: string = '';
+    @Input() acceptChars: string = '';
 
     private regex: RegExp = new RegExp(/^[a-zA-Z0-9]+$/);
 
     constructor(private el: ElementRef) { }
 
     @HostListener('keydown', ['$event']) onKeyDown(event: KeyboardEvent) {
-        if (this.includeChars !== '') {
-            this.regex = new RegExp(`^[a-zA-Z0-9${this.includeChars}]+$`);
+        if (this.acceptChars !== '') {
+            this.regex = new RegExp(`^[a-zA-Z0-9${this.acceptChars}]+$`);
         }
 
         if (!this.regex.test(event.key)) {
