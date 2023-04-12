@@ -10,9 +10,6 @@ Common libraries for angular projects.
 
 ## Installation
 1. In your Angular application, install the angular-utils-lib library:
-```perl
-npm install angular-utils-lib
-```
 
 ```perl
 npm i angular-utils-lib

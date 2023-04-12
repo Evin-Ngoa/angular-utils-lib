@@ -9,18 +9,15 @@ Common libraries for angular projects.
 
 
 ## Installation
-1. In your Angular application, install the angular-utils-lib library:
-```perl
-npm install angular-utils-lib
-```
+1. In your Angular application, install the ngst-common-utils library:
 
 ```perl
-npm i angular-utils-lib
+npm i ngst-common-utils
 ```
 
 In app.module, import the module
 ```typescript
-import { AngularUtilsLibModule } from 'angular-utils-lib';
+import { AngularUtilsLibModule } from 'ngst-common-utils';
 ```
 Finally import it to the module
 ```typescript
