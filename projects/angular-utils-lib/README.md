@@ -1,9 +1,14 @@
-# AngularUtilsLib
+# AngularCommonLib
+Common libraries for angular projects.
 
-This library was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.0.
+## Table of Contents
+
+- [Installation](#Installation)
+- [Usage](#Usage)
+- [License](#License)
 
 
-## Installation Guide
+## Installation
 1. In your Angular application, install the angular-utils-lib library:
 ```perl
 npm install angular-utils-lib
@@ -33,7 +38,7 @@ Finally import it to the module
 })
 ```
 
-## Available Directives
+## Usage
 
 ### 1. Filter Out Special Characters from inputs
 - By default, this directive only accepts letters and numbers. Space is by default *NOT* permitted.
@@ -60,3 +65,8 @@ Finally import it to the module
 ```html
     <input type="text" appCreditCard />
 ```
+
+
+## License
+
+[GNU 2.0](https://www.gnu.org/licenses/old-licenses/gpl-2.0.html)

@@ -12,9 +12,17 @@
     "noFallthroughCasesInSwitch": true,
     "sourceMap": true,
     "paths": {
+      "angular-common": [
+        "dist/angular-common/angular-common",
+        "dist/angular-common"
+      ],
       "angular-utils-lib": [
         "dist/angular-utils-lib/angular-utils-lib",
         "dist/angular-utils-lib"
+      ],
+      "ngst-common-utils": [
+        "dist/ngst-common-utils/ngst-common-utils",
+        "dist/ngst-common-utils"
       ],
       "no-special-characters": [
         "dist/no-special-characters/no-special-characters",
