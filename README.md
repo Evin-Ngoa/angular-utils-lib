@@ -36,8 +36,8 @@ Finally import it to the module
 ## Available Directives
 
 ### 1. Filter Out Special Characters from inputs
-- This directive by default only allow numbers and alphabet characters. Space is *NOT* allowed by default.
-- Use the `appNoSpecialCharacters` directives in your application:
+- By default, this directive only accepts letters and numbers. Space is by default *NOT* permitted.
+- Use the `appNoSpecialCharacters` directive in your application:
 
 ```html
     <input type="text" appNoSpecialCharacters />
@@ -53,5 +53,10 @@ Finally import it to the module
     <textarea appNoSpecialCharacters includeChars=" ,.!"></textarea>
 ```
 
+### 2. Credit card number format
+- This directive only accepts well-formatted 16-digit numbers.
+- Use the `appCreditCard` directive in your application:
 
-
+```html
+    <input type="text" appCreditCard />
+```
