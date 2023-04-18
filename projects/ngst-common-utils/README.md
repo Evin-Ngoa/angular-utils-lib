@@ -62,7 +62,12 @@ Finally import it to the module
 ```html
     <input type="text" appCreditCard />
 ```
-
+### 3. Time difference in days
+- This pipe only accepts date formatted in 'YYYY-MM-DD'.
+- Use the `diffDate` pipe in your application to pass your future date:
+```html
+    <p>{{'2023-04-14'|diffDate}}</p>
+```
 
 ## License
 
