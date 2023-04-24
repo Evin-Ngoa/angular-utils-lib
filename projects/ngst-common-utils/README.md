@@ -75,7 +75,7 @@ Finally import it to the module
 
 ### 4. Countdown
 - This countdown feature starts from the value you pass, greater than 0, to 0 with an interval of 1 second.
-- Use the `countdown` pipe and pass your integer value to `countdownValue` to commence countdown:
+- Use the `countdown` and pass your integer value to `countdownValue` to commence countdown:
   
 ```html
 <div countdown [countdownValue]="60"></div>
