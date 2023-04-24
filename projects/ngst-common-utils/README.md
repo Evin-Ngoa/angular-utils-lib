@@ -72,3 +72,15 @@ Finally import it to the module
 ## License
 
 [GNU 2.0](https://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
+
+### 4. Countdown
+- This countdown feature starts from the value you pass, greater than 0, to 0 with an interval of 1 second.
+- Use the `countdown` pipe and pass your integer value to `countdownValue` to commence countdown:
+  
+```html
+<div countdown [countdownValue]="60"></div>
+```
+
+## License
+
+[GNU 2.0](https://www.gnu.org/licenses/old-licenses/gpl-2.0.html)

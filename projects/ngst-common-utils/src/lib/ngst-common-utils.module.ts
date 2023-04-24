@@ -19,7 +19,8 @@ import { CountdownDirective } from './directive/countdown.directive';
     NgstCommonUtilsComponent,
     NoSpecialCharactersDirective,
     CreditCardDirective,
-    DifferenceDatePipe
+    DifferenceDatePipe,
+    CountdownDirective
   ]
 })
 export class NgstCommonUtilsModule { }
