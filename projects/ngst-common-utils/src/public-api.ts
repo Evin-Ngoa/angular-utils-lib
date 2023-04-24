@@ -8,3 +8,4 @@ export * from './lib/ngst-common-utils.module';
 export * from './lib/directive/no-special-characters.directive';
 export * from './lib/directive/credit-card.directive';
 export * from './lib/pipe/date-difference.pipe';
+export * from './lib/directive/countdown.directive';
