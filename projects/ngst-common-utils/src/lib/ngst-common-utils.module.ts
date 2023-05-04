@@ -4,14 +4,15 @@ import { NoSpecialCharactersDirective } from './directive/no-special-characters.
 import { CreditCardDirective } from './directive/credit-card.directive';
 import { DifferenceDatePipe } from './pipe/date-difference.pipe';
 import { CountdownDirective } from './directive/countdown.directive';
-
+import { CurrencyFormatterDirective } from './directive/currency.directive';
 @NgModule({
   declarations: [
     NgstCommonUtilsComponent,
     NoSpecialCharactersDirective,
     CreditCardDirective,
     DifferenceDatePipe,
-    CountdownDirective
+    CountdownDirective,
+    CurrencyFormatterDirective,
   ],
   imports: [
   ],
@@ -20,7 +21,8 @@ import { CountdownDirective } from './directive/countdown.directive';
     NoSpecialCharactersDirective,
     CreditCardDirective,
     DifferenceDatePipe,
-    CountdownDirective
+    CountdownDirective,
+    CurrencyFormatterDirective
   ]
 })
 export class NgstCommonUtilsModule { }
