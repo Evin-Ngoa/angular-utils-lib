@@ -1,5 +1,5 @@
 # AngularCommonLib
-Common libraries for angular projects.
+A standard utility library including the most often used angular functions.
 
 ## Table of Contents
 
