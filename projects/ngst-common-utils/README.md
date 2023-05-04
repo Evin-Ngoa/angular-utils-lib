@@ -69,16 +69,20 @@ Finally import it to the module
     <p>{{'2023-04-14'|diffDate}}</p>
 ```
 
-## License
-
-[GNU 2.0](https://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
-
 ### 4. Countdown
 - This countdown feature starts from the value you pass, greater than 0, to 0 with an interval of 1 second.
 - Use the `countdown` and pass your integer value to `countdownValue` to commence countdown:
   
 ```html
 <div countdown [countdownValue]="60"></div>
+```
+
+### 5. Currency / Numeric Formatter
+- To improve readability, this feature adds commas to numeric numbers in an input. By default, it removes any non-numerical values.
+- Use the `appCurrencyFormatter` in your input.
+  
+```html
+<input type="text" appCurrencyFormatter>
 ```
 
 ## License

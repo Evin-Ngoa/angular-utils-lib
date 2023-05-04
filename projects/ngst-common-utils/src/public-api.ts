@@ -9,3 +9,4 @@ export * from './lib/directive/no-special-characters.directive';
 export * from './lib/directive/credit-card.directive';
 export * from './lib/pipe/date-difference.pipe';
 export * from './lib/directive/countdown.directive';
+export * from './lib/directive/currency.directive';
