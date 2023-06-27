@@ -85,6 +85,20 @@ Finally import it to the module
 <input type="text" appCurrencyFormatter>
 ```
 
+### 6. Search filter for iterable template data
+- This pipe only accepts data in an array of strings structure i.e. ['','',''].
+- Use the `searchFilter` pipe in your application to pass your array of strings and the search string:
+```html
+    <div  *ngFor="let string of arrayOfStrings| searchFilter: searchString"></div>
+```
+
+### 7. Abbreviate profile names or any other string
+- This pipe only accepts data in string format 'My string'.
+- Use the `profileAbbreviator` pipe in your application to pass your strings and get the string abbreviation:
+```html
+    <p class="letter">{{'My String'| profileAbbreviator }}</p>
+```
+
 ## License
 
 [GNU 2.0](https://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
