@@ -15,9 +15,6 @@ export class DifferenceDatePipe implements PipeTransform {
         // calculate the number of days between two dates javascript
         let numberOfDays = diffTime / (1000 * 3600 * 24);
 
-        console.log(date);
-        console.log(currentDate);
-        console.log(numberOfDays);
         return Math.round(numberOfDays);
     }
 }
