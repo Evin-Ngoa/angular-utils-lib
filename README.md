@@ -17,7 +17,7 @@ npm i ngst-common-utils
 
 In app.module, import the module
 ```typescript
-import { AngularUtilsLibModule } from 'ngst-common-utils';
+import { NgstCommonUtilsModule } from 'ngst-common-utils';
 ```
 Finally import it to the module
 ```typescript
@@ -28,7 +28,7 @@ Finally import it to the module
   imports: [
     BrowserModule,
     AppRoutingModule,
-    AngularUtilsLibModule,
+    NgstCommonUtilsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
