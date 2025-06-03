@@ -97,6 +97,15 @@ Finally import it to the module
 - Use the `profileAbbreviator` pipe in your application to pass your strings and get the string abbreviation:
 ```html
     <p class="letter">{{'My String'| profileAbbreviator }}</p>
+
+    <!-- Default behavior - returns 2 letters -->
+    <p class="letter">{{ 'My Investments Account' | profileAbbreviator }}  <!-- Returns: "MI" --></p>
+
+    <!-- With custom length parameter -->
+    <p class="letter">{{ 'My Investments Account' | profileAbbreviator:3 }}</p>  <!-- Returns: "MIA" -->
+    <p class="letter">{{ 'My Investments Account' | profileAbbreviator:1 }}</p>  <!-- Returns: "M" -->
+    <p class="letter">{{ 'My Investments Account' | profileAbbreviator:1 }}</p>  <!-- Returns: "M" -->
+    <p class="letter">{{ 'John Doe' | profileAbbreviator:5 }}</p>  <!-- Returns: "JD" (only 2 letters available) -->
 ```
 
 ## License
