@@ -7,8 +7,12 @@ import { SearchFilterPipe } from './pipe/search-filter.pipe';
 import { ProfileAbbreviatorPipe } from './pipe/profile-abbreviator.pipe'; 
 import { CountdownDirective } from './directive/countdown.directive';
 import { CurrencyFormatterDirective } from './directive/currency.directive';
+import { CommonModule } from '@angular/common';
 @NgModule({
   declarations: [
+  ],
+  imports: [
+    CommonModule,
     NgstCommonUtilsComponent,
     NoSpecialCharactersDirective,
     CreditCardDirective,
@@ -17,8 +21,6 @@ import { CurrencyFormatterDirective } from './directive/currency.directive';
     ProfileAbbreviatorPipe,
     CountdownDirective,
     CurrencyFormatterDirective,
-  ],
-  imports: [
   ],
   exports: [
     NgstCommonUtilsComponent,
